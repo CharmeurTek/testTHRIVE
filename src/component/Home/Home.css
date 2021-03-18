@@ -1,0 +1,64 @@
+.theBase {
+    padding-left: 0px;
+    z-index: 0;
+    float: left;
+    max-width: initial;
+}
+
+.firstCol {
+    z-index: 0;
+    padding-right: 0px;
+}
+
+.secondCol {
+    margin-left: 0%;
+    z-index: 1;
+}
+
+.textCarou {
+    margin-left: 20%;
+    margin-top: 16%;
+    max-width: 510px;
+}
+
+.itemBase {
+    text-align: left;
+}
+
+.itemTitle {
+    font-size: 55px;
+}
+
+.itemDesc {
+    color: grey;
+    font-size: 18px;
+}
+
+.locButton {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.lastRow {
+    max-width: initial;
+}
+
+.lastRowsecondCol {
+    margin-top: 6%;
+    margin-left: 2%;
+}
+
+.lastRowtext {
+    text-align: left;
+    width: 87%;
+}
+
+.lastRowdesc {
+    padding-right: 0px;
+}
+
+.styleImg {
+    right: 0%;
+    position: absolute;
+}

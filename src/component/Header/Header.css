@@ -1,0 +1,15 @@
+.main {
+    margin-left: 3%;
+    margin-top: 3%;
+    z-index: 2;
+    position: absolute;
+    color: white;
+}
+
+.nav {
+    font-size: 15px;
+}
+
+.logo {
+    margin-right: 2%;
+}

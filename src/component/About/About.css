@@ -1,0 +1,17 @@
+.backAbout {
+    background-color: #1b1c1d;
+    width: auto;
+    height: 100vh;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+
+.titleAbout {
+    color: white;
+    font-weight: 800;
+    font-size: 60px;
+}
