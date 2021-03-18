@@ -9,10 +9,10 @@ export default function Header() {
             <Navbar.Brand href="/home"><img src="http://localhost:3000/logo.svg" ></img></Navbar.Brand>
           </div>
           <Nav className="mr-auto">
-            <Nav.Link href="/home">home</Nav.Link>
-            <Nav.Link href="/shop">shop</Nav.Link>
-            <Nav.Link href="/about">about</Nav.Link>
-            <Nav.Link href="/contact">contact</Nav.Link>
+            <Nav.Link href="/testTHRIVE/#/home">home</Nav.Link>
+            <Nav.Link href="/testTHRIVE/#/shop">shop</Nav.Link>
+            <Nav.Link href="/testTHRIVE/#/about">about</Nav.Link>
+            <Nav.Link href="/testTHRIVE/#/contact">contact</Nav.Link>
           </Nav>
         </Navbar>
       </div>

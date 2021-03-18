@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Button } from 'semantic-ui-react'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row'
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'semantic-ui-css/semantic.min.css'
+// import desktop-image-hero-1 from '../images/desktop-image-hero-1.jpg'
 
 export default function Home() {
   var [index, setIndex] = useState(0);
@@ -52,21 +53,21 @@ export default function Home() {
             <Carousel.Item>
               <img
                 width="1000px"
-                src="http://localhost:3000/desktop-image-hero-1.jpg"
+                src={window.location.origin + "/images/desktop-image-hero-1.jpg"}
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 width="1000px"
-                src="http://localhost:3000/desktop-image-hero-2.jpg"
+                src={window.location.origin + "/images/desktop-image-hero-2.jpg"}
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 width="1000px"
-                src="http://localhost:3000/desktop-image-hero-3.jpg"
+                src={window.location.origin + "/images/desktop-image-hero-3.jpg"}
                 alt="Third slide"
               />
             </Carousel.Item>
@@ -81,7 +82,7 @@ export default function Home() {
                 <p style={{ color: "grey" }}>We provide unmatched quality, comfort, and style for property owners across the country.
                 Our experts combine form and function in bringing your vision to life. Create a room in your
   own style with our collection and make your property a reflection of you and what you love.</p>
-                <Button>Shop Now <img src="http://localhost:3000/icon-arrow.svg"></img></Button>
+                <Button>Shop Now <img src={window.location.origin + "/images/icon-arrow.svg"}></img></Button>
               </div>
             </Carousel.Item>
             <Carousel.Item>
@@ -90,7 +91,7 @@ export default function Home() {
                 <p style={{ color: "grey" }}>With stores all over the world, it's easy for you to find furniture for your home or place of business.
                 Locally, we’re in most major cities throughout the country. Find the branch nearest you using our
   store locator. Any questions? Don't hesitate to contact us today.</p>
-                <Button>Shop Now <img src="http://localhost:3000/icon-arrow.svg"></img></Button>
+                <Button>Shop Now <img src={window.location.origin + "/images/icon-arrow.svg"}></img></Button>
               </div>
             </Carousel.Item>
             <Carousel.Item>
@@ -99,7 +100,7 @@ export default function Home() {
                 <p style={{ color: "grey" }}>Our modern furniture store provide a high level of quality. Our company has invested in advanced technology
                 to ensure that every product is made as perfect and as consistent as possible. With three decades of
   experience in this industry, we understand what customers want for their home and office.</p>
-                <Button>Shop Now <img src="http://localhost:3000/icon-arrow.svg"></img></Button>
+                <Button>Shop Now <img src={window.location.origin + "/images/icon-arrow.svg"}></img></Button>
               </div>
             </Carousel.Item>
           </Carousel>
