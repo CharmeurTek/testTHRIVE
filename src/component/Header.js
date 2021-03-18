@@ -6,7 +6,7 @@ export default function Header() {
         <div style={{ marginLeft: '3%', marginTop: '3%', zIndex: '2', position: 'absolute', color: 'white'}}>
         <Navbar bg="none" variant="dark" style={{ fontSize: '15px'}}>
           <div style={{ marginRight: '2%' }} >
-            <Navbar.Brand href="/home"><img src="http://localhost:3000/logo.svg" ></img></Navbar.Brand>
+            <Navbar.Brand href="/testTHRIVE/#/home"><img src={window.location.origin + "/testTHRIVE/images/logo.svg"} ></img></Navbar.Brand>
           </div>
           <Nav className="mr-auto">
             <Nav.Link href="/testTHRIVE/#/home">home</Nav.Link>
