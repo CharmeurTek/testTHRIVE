@@ -9,7 +9,7 @@ export default function About() {
     return (
         <div className="backAbout">
             <Container>
-                <Row className="row">
+                <Row className="mainRowAbout">
                     <Col style={{ marginTop: '15%' }}>
                         <h1 className="titleAbout">La vidéo qui me représente :</h1>
                     </Col>
