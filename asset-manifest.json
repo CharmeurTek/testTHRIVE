@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/testTHRIVE/static/css/main.78803596.chunk.css",
-    "main.js": "/testTHRIVE/static/js/main.d169ec51.chunk.js",
-    "main.js.map": "/testTHRIVE/static/js/main.d169ec51.chunk.js.map",
+    "main.css": "/testTHRIVE/static/css/main.0f915d2c.chunk.css",
+    "main.js": "/testTHRIVE/static/js/main.d660ca0f.chunk.js",
+    "main.js.map": "/testTHRIVE/static/js/main.d660ca0f.chunk.js.map",
     "runtime-main.js": "/testTHRIVE/static/js/runtime-main.f45a3024.js",
     "runtime-main.js.map": "/testTHRIVE/static/js/runtime-main.f45a3024.js.map",
     "static/css/2.a9bcd8c8.chunk.css": "/testTHRIVE/static/css/2.a9bcd8c8.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.36f5d7fa.chunk.js.map": "/testTHRIVE/static/js/3.36f5d7fa.chunk.js.map",
     "index.html": "/testTHRIVE/index.html",
     "static/css/2.a9bcd8c8.chunk.css.map": "/testTHRIVE/static/css/2.a9bcd8c8.chunk.css.map",
-    "static/css/main.78803596.chunk.css.map": "/testTHRIVE/static/css/main.78803596.chunk.css.map",
+    "static/css/main.0f915d2c.chunk.css.map": "/testTHRIVE/static/css/main.0f915d2c.chunk.css.map",
     "static/js/2.0b8400e9.chunk.js.LICENSE.txt": "/testTHRIVE/static/js/2.0b8400e9.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/testTHRIVE/static/media/outline-icons.ddae9b1b.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.f45a3024.js",
     "static/css/2.a9bcd8c8.chunk.css",
     "static/js/2.0b8400e9.chunk.js",
-    "static/css/main.78803596.chunk.css",
-    "static/js/main.d169ec51.chunk.js"
+    "static/css/main.0f915d2c.chunk.css",
+    "static/js/main.d660ca0f.chunk.js"
   ]
 }
