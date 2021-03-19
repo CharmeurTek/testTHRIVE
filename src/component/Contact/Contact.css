@@ -4,8 +4,19 @@
     height: 100vh;
 }
 
+.titleContact {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.titleContactText {
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+}
+
 .contact {
-    margin-top: 30%;
+    margin-top: 10%;
 }
 
 .buttonConfirm {

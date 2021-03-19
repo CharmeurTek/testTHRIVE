@@ -17,7 +17,7 @@ export default function About() {
                 <Row>
                     <Col>
                         <Embed
-                            style={{ border: '10px solid #232121' }}
+                            style={{ border: '15px solid #232121' }}
                             hd={true}
                             id='H2k2UqPJ_CM'
                             placeholder='/testTHRIVE/images/maps.jpg'

@@ -21,6 +21,11 @@ export default function Contact() {
         <div className="backContact">
             <Container>
                 <Row>
+                    <Col className="titleContact">
+                        <h2 className="titleContactText">Contact</h2>
+                    </Col>
+                </Row>
+                <Row>
                     <Col>
                         <Form className="contact" onSubmit={sendEmail} inverted size={'huge'}>
                             <Form.Group widths='equal'>
